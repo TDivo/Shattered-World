@@ -46,7 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SW_Scripts\itemsArray.cs" />
+     <Compile Include="Assets\SW_Scripts\GUI\gameGUI.cs" />
+     <Compile Include="Assets\SW_Scripts\GameManagement\combatManager.cs" />
+     <Compile Include="Assets\SW_Scripts\GameManagement\itemsArray.cs" />
+     <Compile Include="Assets\SW_Scripts\PlayerScripts\playerInvintory.cs" />
+     <Compile Include="Assets\SW_Scripts\PlayerScripts\playerMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
