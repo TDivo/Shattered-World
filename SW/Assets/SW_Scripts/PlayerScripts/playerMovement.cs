@@ -7,7 +7,7 @@ public class playerMovement : MonoBehaviour
 	public float zPoint = 1.0f;
 	public float yPoint = 0.0f;
 	public float currentSpeed = 5.0f;
-	public float currentGravity = 100.0f;
+	public float currentGravity = -100.0f;
 
 	public GameObject tempChar;
 
@@ -49,7 +49,7 @@ public class playerMovement : MonoBehaviour
 			{
 				if (objHit.collider.tag == "Action")
 				{
-					Debug.Log("Hit");
+					Debug.Log("Chest Opened");
 				}
 			}
 		}

@@ -9,18 +9,21 @@ public class itemsArray : MonoBehaviour
 
 		public int exp;
 		public int damage;
+
 		public bool poison;
 		public bool bleed;
 		
-		public Weapon (int xp,int dmg,bool poi,bool cut)
+		public Weapon (string name,int xp,int dmg,bool poi,bool cut)
 		{
+			weaponName = name;
 			exp = xp;
 			damage = dmg;
 			poison = poi;
 			bleed = cut;
 		}
 	}
-	public Weapon currentWep = new Weapon (36,16,false,true);
+
+	public Weapon ThiAnalAnihalator = new Weapon ("D ANAL ANIHALATOR",150,77,true,true);
 
 	void Start () 
 	{
@@ -29,6 +32,6 @@ public class itemsArray : MonoBehaviour
 
 	void Update () 
 	{
-		//currentWepHealth = currentHealth - currentWep.damage;
+
 	}
 }

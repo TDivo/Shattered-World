@@ -3,13 +3,17 @@ using System.Collections;
 
 public class playerInvintory : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	public string [] itemNames = new string[100];
+	public int [] itemAmounths = new int[100];
+
+	void Start () 
+	{
 	
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Update () 
+	{
+
 	}
 }
