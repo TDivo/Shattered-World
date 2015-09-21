@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SW_Scripts\PlayerScripts\playerInvintory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SW_Scripts\GameManagement\enemyBaseClass.cs">
     <Files>
-      <File FileName="Assets\SW_Scripts\GameManagement\chestLoot.cs" Line="1" Column="1" />
-      <File FileName="Assets\SW_Scripts\PlayerScripts\playerInvintory.cs" Line="18" Column="3" />
-      <File FileName="Assets\SW_Scripts\PlayerScripts\playerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\SW_Scripts\GameManagement\itemsArray.cs" Line="1" Column="1" />
+      <File FileName="Assets\SW_Scripts\GameManagement\enemyBaseClass.cs" Line="11" Column="1" />
+      <File FileName="Assets\SW_Scripts\GameManagement\EnemyTypes\spawnEnemy.cs" Line="21" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
