@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SW_Scripts\GUI\gameGUI.cs" />
+     <Compile Include="Assets\SW_Scripts\GameManagement\EnemyTypes\enemyCreation.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\EnemyTypes\spawnEnemy.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\chestLoot.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\combatManager.cs" />

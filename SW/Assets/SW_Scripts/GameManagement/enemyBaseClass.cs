@@ -3,23 +3,21 @@ using System.Collections;
 
 public class enemyBaseClass : MonoBehaviour 
 {
-	public enemyType e_Type;
+	//public enemyType e_Type;
 
 	public int 
 	health,
 	str,
+	md,
+	dex,
 	agi,
 	iq,
 	pDef,
 	mDef,
-	magP,
-	end,
+	mp,
+	acc,
 	enemyLevel;
 
-	public void Start () 
-	{
-
-	}
 	public void EnemyStats ()
 	{
 		int tempPoints = enemyLevel * 2;
@@ -31,23 +29,41 @@ public class enemyBaseClass : MonoBehaviour
 			iq = tempPoints + 5;
 			pDef = tempPoints + 5;
 			mDef = tempPoints + 5;
-			magP = tempPoints + 5;
-			end = tempPoints + 5;
+			mp = tempPoints + 5;
+			dex = tempPoints + 5;
+			acc = tempPoints + 5;
+			md = tempPoints + 5;
 		}
 		else 
 		{
 
 		}
 	}
-	public enum enemyType
+	public enum enemyRace
 	{
-		Wolf,
-		Mage,
-		Soldier,
-		Theif,
-		Assasin
+		human,
+		animal
 	}
-	public void typeWolf()
+	public enum enemyGender
+	{
+		male,
+		female
+	}
+	public enum enemyClass
+	{
+		archer,
+		soldier,
+		mage,
+		warrior,
+		rogue,
+	}
+	public enum enemyDifficulty
+	{
+		strong,
+		average,
+		weak
+	}
+	/*public void typeWolf()
 	{
 		health = (int)(health * .80f);
 		str = (int) (str * 1.10f);
@@ -55,6 +71,6 @@ public class enemyBaseClass : MonoBehaviour
 		iq = (int) (iq * .80f);
 		pDef = (int) (pDef * 1.10f);
 		mDef = (int) (mDef * .90f);
-		magP = (int) (magP * .50f);
-	}
+		mp = (int) (mp * .50f);
+	}*/
 }
