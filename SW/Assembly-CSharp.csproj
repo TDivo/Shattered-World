@@ -47,12 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SW_Scripts\GUI\gameGUI.cs" />
+     <Compile Include="Assets\SW_Scripts\GameManagement\EnemyTypes\enemyBaseClass.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\EnemyTypes\enemyCreation.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\EnemyTypes\spawnEnemy.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\chestLoot.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\combatManager.cs" />
-     <Compile Include="Assets\SW_Scripts\GameManagement\enemyBaseClass.cs" />
      <Compile Include="Assets\SW_Scripts\GameManagement\itemsArray.cs" />
+     <Compile Include="Assets\SW_Scripts\GameManagement\worldManager.cs" />
      <Compile Include="Assets\SW_Scripts\PlayerScripts\playerInvintory.cs" />
      <Compile Include="Assets\SW_Scripts\PlayerScripts\playerMovement.cs" />
  <Reference Include="UnityEngine.UI">
